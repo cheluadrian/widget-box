@@ -85,7 +85,7 @@
       },sec);
     },
     doAPIRequest : function () {
-        $.getJSON('http://www.mocky.io/v2/5979b14311000053029edc22', function(data){
+        $.getJSON('https://www.mocky.io/v2/5979b14311000053029edc22', function(data){
             methods.createAndPopulateDivs(methods.splitData(data, 5));
           });
     }
